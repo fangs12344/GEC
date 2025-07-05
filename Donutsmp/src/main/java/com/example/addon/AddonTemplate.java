@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 public class AddonTemplate extends MeteorAddon {
     public static final MinecraftClient MC = MinecraftClient.getInstance();
     public static final Logger LOG = LogUtils.getLogger();
-        public static final Category CATEGORY = new Category("GEC-DonutSmp");
+        public static final Category CATEGORY = new Category("GEC");
     public static final HudGroup HUD_GROUP = new HudGroup("Example");
 
     @Override
