@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Telelo addon",
+  "name": "GEC addon",
   "description": "The sexiest .wait addon xD.",
   "authors": [
-    "Telelo"
+    "Fangs"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
