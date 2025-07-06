@@ -11,7 +11,7 @@ import meteordevelopment.meteorclient.systems.hud.Hud;
 import meteordevelopment.meteorclient.systems.hud.HudGroup;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
-import meteordevelopment.meteorclient.systems.modules.combat.AnchorAura;
+import meteordevelopment.meteorclient.systems.modules.movement.Anchor;
 import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 
@@ -26,9 +26,7 @@ public class AddonTemplate extends MeteorAddon {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new ModuleExample());
         Modules.get().add(new AutoSpawnerBreaker());
-
      // Commands
         Commands.add(new CommandExample());
         Commands.add(new ClickSlotCommand2());
