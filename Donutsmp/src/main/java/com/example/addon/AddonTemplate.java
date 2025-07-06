@@ -26,7 +26,7 @@ public class AddonTemplate extends MeteorAddon {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new AutoSpawnerBreaker());
+        Modules.get().add(new SpawnerProtect());
         Modules.get().add(new AhSniper());
      // Commands
         Commands.add(new CommandExample());
