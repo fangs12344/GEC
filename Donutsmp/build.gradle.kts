@@ -3,10 +3,11 @@ plugins {
 }
 
 base {
-    archivesName = properties["archives_base_name"] as String
-    version = properties["mod_version"] as String
-    group = properties["maven_group"] as String
+    archivesName = findProperty("archives_base_name") as? String ?: "my-mod"
+    version = findProperty("mod_version") as? String ?: "1.0.0"
+    group = findProperty("maven_group") as? String ?: "com.example"
 }
+
 
 repositories {
     maven {
@@ -17,6 +18,12 @@ repositories {
         name = "meteor-maven-snapshots"
         url = uri("https://maven.meteordev.org/snapshots")
     }
+    maven {
+        url = uri("https://jitpack.io")
+    }
+
+
+
 }
 
 dependencies {
@@ -27,6 +34,9 @@ dependencies {
 
     // Meteor
     modImplementation("meteordevelopment:meteor-client:${properties["minecraft_version"] as String}-SNAPSHOT")
+
+    // Baritone
+    modImplementation("meteordevelopment:baritone:${properties["baritone_version"] as String}-SNAPSHOT")
 }
 
 tasks {
