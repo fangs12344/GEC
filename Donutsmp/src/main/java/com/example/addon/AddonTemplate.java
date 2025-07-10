@@ -30,6 +30,7 @@ public class AddonTemplate extends MeteorAddon {
         Modules.get().add(new AhSniper());
         Modules.get().add(new TunnelBaseFinder());
         Modules.get().add(new AutoBoneDropper());
+        Modules.get().add(new AutoShulkerOrder());
      // Commands
         Commands.add(new CommandExample());
         Commands.add(new ClickSlotCommand2());
