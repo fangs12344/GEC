@@ -20,7 +20,7 @@
 | Auto Sell        | Automatically sells sea pickles via /sell                             | ❌ Not Yet   |
 | Xray             | Xray for DonutSMP                                                     | ❌ Not Yet   |
 | Bone Dropper     | Automatically drops bones collected from spawners and sell arrorw     | ✅ Added     |
-| Auto Order       | Automatically executes /order for configured items                    | ❌ Not Yet   |
+| Auto Order       | Automatically executes /order for configured items                    | ✅ Added    |
 | TPSniper         | Automatically spams specific players with /tpa or /tpahere requests   | ❌ Not Yet   |
 | ShulkerOrder     | Buys and then /orders the shulkers                                    | ✅ Added     |
 | OrderSniper      | Snipes for good order prices and sells your stuff                     | ❌ Not Yet   |
